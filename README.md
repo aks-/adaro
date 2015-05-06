@@ -14,7 +14,7 @@ var adaro = require('adaro');
 
 var app = express();
 
-app.engine('dust', adaro({ ... });
+app.engine('dust', adaro.dust({ ... });
 app.set('view engine', 'dust');
 
 ```
